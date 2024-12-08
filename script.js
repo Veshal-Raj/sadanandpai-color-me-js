@@ -11,7 +11,7 @@ function activateNumber() {
         return;
     }
     if (inputVal < 1 || inputVal > 9) {
-        alert('Please Enter a Valid Number');
+        alert('Please enter a number between 1 to 9');
         return;
     }
     const activeElement = document.querySelector('.num.active');
